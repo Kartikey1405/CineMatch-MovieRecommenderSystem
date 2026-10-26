@@ -1,0 +1,16 @@
+{
+  "model_name": "SVD",
+  "n_factors": 40,
+  "n_epochs": 15,
+  "random_seed": 42,
+  "modelling_sample_size": 500000,
+  "final_model_training_ratings": 500000,
+  "rating_scale": [
+    0.5,
+    5.0
+  ],
+  "selection_metric": "RMSE",
+  "test_metrics_source": "Held-out test split before final refit",
+  "dataset_ratings_available": 20000263,
+  "dataset_note": "The available ratings file contained fewer records than the original MovieLens 20M dataset described in its README."
+}
